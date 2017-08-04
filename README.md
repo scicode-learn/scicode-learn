@@ -5,7 +5,7 @@ The goal of **scicode-learn** is to be an aggregation website for scientific pro
 
 <img src="resources/scicodelearn_logo.png" width="200">
 
-The project is still early on, see the [Roadmap_initial.md](Roadmap_initial.md) for the plan to get the project off the ground.
+The project is still early on, see the initial roadmap ([issue #2](https://github.com/scicode-learn/scicode-learn/issues/2)) for the plan to get the project off the ground.
 
 scicode-learn a riff off of #scicode and scikit-learn. (See [this blog](https://medium.com/@cMadan/scicode-learn-collecting-thoughts-ff22443f3dda) for some thoughts on the original inspiration for the project).
 
