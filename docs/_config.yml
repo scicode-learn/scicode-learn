@@ -1,7 +1,7 @@
 # Site settings
 title: scicode-learn
 description: "scicode-learn is awesome"
-url: "https://mitmedialab.github.io"
+url: "https://scicode-learn.github.io"
 
 # Secondary Parameters
 baseurl: "/scicode-learn"
