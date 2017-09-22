@@ -1,0 +1,49 @@
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    {% if site.twitter_username %}
+                    <li>
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li>
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li>
+                        <a href="https://github.com/{{ site.github_username }}/{{ site.project_repository}}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                  <p style="font-size:75%; font-weight:bold;">
+                    <i> Maybe some short address whatever </i>
+                  </p>
+                  <p class="copyright text-muted" style="font-size:75%;">
+                    Website content license: <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Website content license" style="border-width:0; height: 2ex; " src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg";/></a> <br/>
+                    Website code content license: <a href="https://github.com/mitmedialab/biomechatronics/blob/master/LICENSE"><img alt="MIT" style="border-width:0; height: 2ex;" src="https://img.shields.io/badge/License-MIT-green.svg" /></a> <br/>
+                    Website design by ⓐ <a href="https://kevinmoerman.org" target="_blank">Kevin M Moerman </a> based on <a href="https://github.com/projectpages" target="_blank">Project Pages template</a> <br/>
+                  </p>
+            </div>
+        </div>
+    </div>
+</footer>

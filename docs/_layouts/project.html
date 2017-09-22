@@ -1,0 +1,27 @@
+---
+layout: page
+---
+{% for post in site.posts %}
+{% if post.category == page.category %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}" >
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <i class="copyright text-muted" style="font-size:75%;">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</i>
+        <br />
+        {% if post.thumbnail %}
+            <img alt="" style="height:200px;" src="{{ site.baseurl }}/{{ post.thumbnail }}" />
+        {% endif %}
+    </a>
+	<!-- <div class="notepad-index-post-tags" style="">
+		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+	</div> -->
+</div>
+<hr>
+{% endif %}
+{% endfor %}
