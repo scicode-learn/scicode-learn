@@ -1,10 +1,10 @@
 <div class="col-sm-4 resource">
 
-  <div class="panel 
+  <div class="panel panel_All 
 {% if resource.language == "Matlab" %}panel-info{% endif %}
 {% if resource.language == "Python" %}panel-success{% endif %}
 {% if resource.language == "R" %}panel-danger{% endif %}
-  ">
+  panel_{{resource.language}}">
   <div class="panel-heading">
   <h3 class="panel-title">{{ resource.name }}
   </h3>
