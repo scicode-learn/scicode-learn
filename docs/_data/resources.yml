@@ -25,4 +25,10 @@
   url: https://www.rstudio.com/resources/cheatsheets/
   type: cheatsheets
   description: Many cheatsheets for R packages. Includes various translations.
+
+- label: MatlabPsych
+  name: Matlab for Psychologists
+  language: Matlab
+  url: http://www.antoniahamilton.com/matlab.html
+  type: tutorial
   
