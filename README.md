@@ -3,7 +3,7 @@
 
 The goal of **scicode-learn** is to be an aggregation website for scientific programming resources. The project is particularly geared towards intro-to-programming material and guides that are more field-specific (e.g., making psychology experiments, data analyses for genetics research, etc.). The website will aggregate resources—from cheatsheets to online courses—across Python, Matlab, and R.
 
-<img src="resources/scicodelearn_logo.png" width="200">
+<img src="scicodelearn_logo.png" width="200">
 
 The project is still early on, see the initial roadmap ([issue #2](https://github.com/scicode-learn/scicode-learn/issues/2)) for the plan to get the project off the ground.
 
