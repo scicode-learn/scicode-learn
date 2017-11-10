@@ -1,0 +1,28 @@
+<div class="resource">
+<div class="sheet">
+  <h3>{{ resource.name }}</h3>
+  <div class="links">
+    <a href="{{resource.url}}" target="_blank"><i class="fa fa-external-link"></i> {{resource.url}}</a>
+
+	{% if resource.description %}
+	<br />
+	<span style="font-size:75%;">{{ resource.description }}</span>
+	{% endif %}
+
+	{% if resource.language %}
+	<br />
+	{% endif %}
+
+	{% if resource.language == "Matlab" %}
+	<button type="button" class="btn btn-xs btn-primary">{{resource.language}}</button>
+	{% endif %}
+	{% if resource.language == "Python" %}
+	<button type="button" class="btn btn-xs btn-success">{{resource.language}}</button>
+	{% endif %}
+	{% if resource.language == "R" %}
+	<button type="button" class="btn btn-xs btn-danger">{{resource.language}}</button>
+	{% endif %}
+
+  </div>
+</div>
+</div>
