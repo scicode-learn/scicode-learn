@@ -10,8 +10,8 @@ headercolor: "#FFFFFF"
 logo: "img/logos/sciCodeLearn_logo.png"
 
 # Tertiary Parameters
-#github_username:  gibbonCode
-#project_repository: GIBBON
+github_username:  scicode-learn
+project_repository: scicode-learn
 #twitter_username: GibbonToolbox
 #disqus_shortname: GIBBON
 #g-analytics: UA-75881392-1
