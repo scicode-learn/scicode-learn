@@ -23,7 +23,7 @@
   name: RStudio Cheat Sheets
   language: R
   url: https://www.rstudio.com/resources/cheatsheets/
-  type: cheatsheets
+  type: cheatsheet
   description: Many cheatsheets for R packages. Includes various translations.
 
 - label: MatlabPsych
@@ -31,4 +31,3 @@
   language: Matlab
   url: http://www.antoniahamilton.com/matlab.html
   type: tutorial
-  

@@ -1,7 +1,15 @@
-<div class="resource">
-<div class="sheet">
-  <h3>{{ resource.name }}</h3>
-  <div class="links">
+<div class="col-sm-4 resource">
+
+  <div class="panel 
+{% if resource.language == "Matlab" %}panel-info{% endif %}
+{% if resource.language == "Python" %}panel-success{% endif %}
+{% if resource.language == "R" %}panel-danger{% endif %}
+  ">
+  <div class="panel-heading">
+  <h3 class="panel-title">{{ resource.name }}
+  </h3>
+  </div>
+  <div class="panel-body info">
     <a href="{{resource.url}}" target="_blank"><i class="fa fa-external-link"></i> {{resource.url}}</a>
 
 	{% if resource.description %}
@@ -9,18 +17,9 @@
 	<span style="font-size:75%;">{{ resource.description }}</span>
 	{% endif %}
 
-	{% if resource.language %}
+	{% if resource.type %}
 	<br />
-	{% endif %}
-
-	{% if resource.language == "Matlab" %}
-	<button type="button" class="btn btn-xs btn-primary">{{resource.language}}</button>
-	{% endif %}
-	{% if resource.language == "Python" %}
-	<button type="button" class="btn btn-xs btn-success">{{resource.language}}</button>
-	{% endif %}
-	{% if resource.language == "R" %}
-	<button type="button" class="btn btn-xs btn-danger">{{resource.language}}</button>
+	<span class="label label-default">{{resource.type}}</span>
 	{% endif %}
 
   </div>
