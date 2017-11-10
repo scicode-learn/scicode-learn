@@ -1,5 +1,6 @@
 # Resources
 - label: RDataSci
+  name: R for Data Science
   language: R
   url: http://r4ds.had.co.nz
   type: book
@@ -7,17 +8,21 @@
   keywords: data science
 
 - label: DataQuest-NumPy
+  name: "NumPy Tutorial: Data analysis with Python"
   language: Python
   url: https://www.dataquest.io/blog/numpy-tutorial-python/
   type: tutorial
 
 - label: RBloggers-Psych
+  name: Learning R for Researchers in Psychology
   language: R
   url: https://www.r-bloggers.com/learning-r-for-researchers-in-psychology/
   type: links
 
 - label: RStudioCheat
+  name: RStudio Cheat Sheets
   language: R
   url: https://www.rstudio.com/resources/cheatsheets/
   type: cheatsheets
   description: Many cheatsheets for R packages. Includes various translations.
+  
