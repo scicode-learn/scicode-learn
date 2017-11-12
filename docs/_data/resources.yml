@@ -1,36 +1,43 @@
 # Resources
 - label: RDataSci
   name: R for Data Science
-  language: R
   url: http://r4ds.had.co.nz
+  language: R
   type: book
   description: Introductory book called "R for Data Science". Available free online.
   keywords: data science
 
 - label: DataQuest-NumPy
   name: "NumPy Tutorial: Data analysis with Python"
-  language: Python
   url: https://www.dataquest.io/blog/numpy-tutorial-python/
+  language: Python
   type: tutorial
 
 - label: RBloggers-Psych
   name: Learning R for Researchers in Psychology
-  language: R
   url: https://www.r-bloggers.com/learning-r-for-researchers-in-psychology/
+  language: R
   type: links
-  keywords: psychology
+  keywords: psychology, book, getting started, general
 
 - label: RStudioCheat
   name: RStudio Cheat Sheets
-  language: R
   url: https://www.rstudio.com/resources/cheatsheets/
+  language: R
   type: cheatsheet
   description: Many cheatsheets for R packages. Includes various translations.
   keywords: multilanguage
 
 - label: MatlabPsych
   name: Matlab for Psychologists
-  language: Matlab
   url: http://www.antoniahamilton.com/matlab.html
+  language: Matlab
   type: tutorial
   keywords: psychology
+
+- label: JekyllCheat
+  name: Jekyll & Liquid Cheatsheet
+  url: https://gist.github.com/smutnyleszek/9803727
+  language: Jekyll
+  type: cheatsheet
+

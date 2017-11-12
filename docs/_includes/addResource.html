@@ -4,13 +4,14 @@
 {% if resource.language == "Matlab" %}panel-info{% endif %}
 {% if resource.language == "Python" %}panel-success{% endif %}
 {% if resource.language == "R" %}panel-danger{% endif %}
+{% if resource.language != "Matlab" and resource.language != "Python" and resource.language != "R"  %}panel-default{% endif %}
   panel_{{resource.language}}">
   <div class="panel-heading">
   <h3 class="panel-title">{{ resource.name }}
   </h3>
   </div>
   <div class="panel-body info">
-    <a href="{{resource.url}}" target="_blank"><i class="fa fa-external-link"></i> {{resource.url | replace: "https", "" | replace: "http", "" | replace: "://", "" | replace: "www.", "" | truncate: 25}}</a>
+    <a href="{{resource.url}}" target="_blank"><i class="fa fa-external-link"></i> {{ resource.url | replace: "https", "" | replace: "http", "" | replace: "://", "" | replace: "www.", "" | truncate: 25 }}</a>
 
 	{% if resource.description %}
 	<br />
@@ -19,8 +20,19 @@
 
 	{% if resource.type %}
 	<br />
-	<span class="label label-default">{{resource.type}}</span>
+	<span class="label label-default">{{ resource.type }}</span>
 	{% endif %}
+
+  <br />
+  
+  {% if resource.language != "Matlab" and resource.language != "Python" and resource.language != "R"  %}
+  <span class="label label-default">{{ resource.language }}</span>
+  {% endif %}
+
+  {% assign keywords = resource.keywords | split:", " %}
+  {% for keyword in keywords %}
+  <span class="label label-default">{{ keyword }}</span>
+  {% endfor %}
 
   </div>
 </div>
