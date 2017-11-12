@@ -18,6 +18,7 @@
   language: R
   url: https://www.r-bloggers.com/learning-r-for-researchers-in-psychology/
   type: links
+  keywords: psychology
 
 - label: RStudioCheat
   name: RStudio Cheat Sheets
@@ -25,9 +26,11 @@
   url: https://www.rstudio.com/resources/cheatsheets/
   type: cheatsheet
   description: Many cheatsheets for R packages. Includes various translations.
+  keywords: multilanguage
 
 - label: MatlabPsych
   name: Matlab for Psychologists
   language: Matlab
   url: http://www.antoniahamilton.com/matlab.html
   type: tutorial
+  keywords: psychology
