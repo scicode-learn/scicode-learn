@@ -4,7 +4,7 @@ description: "scicode-learn is awesome"
 url: "https://scicode-learn.github.io"
 
 # Secondary Parameters
-baseurl: "/"
+baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: "img/logos/sciCodeLearn_logo.png"
