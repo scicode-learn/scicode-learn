@@ -34,6 +34,7 @@
   url: https://gist.github.com/smutnyleszek/9803727
   language: Jekyll
   type: cheatsheet
+  thumbnail: none
 
 - name: Jekyll Cheat Sheet
   url: https://learn.cloudcannon.com/jekyll-cheat-sheet/
