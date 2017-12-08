@@ -1,0 +1,71 @@
+# Resources
+- name: R for Data Science
+  url: http://r4ds.had.co.nz
+  language: R
+  type: book
+  description: Introductory book called "R for Data Science". Available free online.
+  keywords: data science
+
+- name: "NumPy Tutorial: Data analysis with Python"
+  url: https://www.dataquest.io/blog/numpy-tutorial-python/
+  language: Python
+  type: tutorial
+
+- name: Learning R for Researchers in Psychology
+  url: https://www.r-bloggers.com/learning-r-for-researchers-in-psychology/
+  language: R
+  type: links
+  keywords: psychology, book, getting started, general
+
+- name: RStudio Cheat Sheets
+  url: https://www.rstudio.com/resources/cheatsheets/
+  language: R
+  type: cheatsheet
+  description: Many cheatsheets for R packages. Includes various translations.
+  keywords: multilanguage
+
+- name: Matlab for Psychologists
+  url: http://www.antoniahamilton.com/matlab.html
+  language: Matlab
+  type: tutorial
+  keywords: psychology
+
+- name: Jekyll & Liquid Cheatsheet
+  url: https://gist.github.com/smutnyleszek/9803727
+  language: Jekyll
+  type: cheatsheet
+
+- name: Jekyll Cheat Sheet
+  url: https://learn.cloudcannon.com/jekyll-cheat-sheet/
+  language: Jekyll
+  type: cheatsheet
+  description: Comprehensive Jekyll cheatsheet with detailed examples (click on the function name).
+
+- name: Git (and GitHub) Cheat Sheet
+  url: http://neuroplausible.com/github
+  language: Git
+  type: cheatsheet
+  description: Very clear beginner's guide to Git and Github.
+
+- name: Python in neuroscience
+  url: https://github.com/btel/python-in-neuroscience-tutorials
+  language: Python
+  keywords: neuroscience, Jupyter
+
+- name: MATLAB for Psychologists
+  url: https://link.springer.com/book/10.1007%2F978-1-4614-2197-9
+  language: Matlab
+  type: book
+  keywords: psychology
+
+- name: Using R for psychological research
+  url: http://personality-project.org/r/
+  language: R
+  type: guide
+  keywords: psychology
+
+- name: An Introduction to MATLAB for Behavioral Researchers
+  url: http://www.cmadan.com/book.php
+  language: Matlab
+  type: book
+  keywords: psychology
