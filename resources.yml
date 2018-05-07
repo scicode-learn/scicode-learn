@@ -70,3 +70,17 @@
   language: Matlab
   type: book
   keywords: psychology
+
+- name: Creating websites in R
+  url: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
+  language: R
+  type: guide
+  keywords: psychology
+
+
+
+
+
+
+
+
