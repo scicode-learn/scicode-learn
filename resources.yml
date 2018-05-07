@@ -89,6 +89,13 @@
   type: guide
   description: An introductory programming guide for time-accurate experiments
   keywords: psychology, cognitive science, getting started
+  
+- name: Python for Experimental Psychologists
+  url: https://www.routledge.com/Python-for-Experimental-Psychologists/Dalmaijer/p/book/9781138671577
+  language: Python
+  type: book
+  keywords: psychology, cognitive science, getting started
+  
 
 
 
