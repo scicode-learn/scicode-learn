@@ -77,7 +77,25 @@
   type: guide
   keywords: psychology
 
+- name: Programming Experiments in Python and PsychoPy2
+  url: https://legacy.gitbook.com/book/kristiantylen/programming-experiments-in-python-and-psychopy2/details
+  language: Python
+  type: guide
+  keywords: psychology, cognitive science, getting started
 
+- name: Programming with PsychoPy
+  url: https://www.socsci.ru.nl/wilberth/psychopy/00intro.html
+  language: Python
+  type: guide
+  description: An introductory programming guide for time-accurate experiments
+  keywords: psychology, cognitive science, getting started
+  
+- name: Python for Experimental Psychologists
+  url: https://www.routledge.com/Python-for-Experimental-Psychologists/Dalmaijer/p/book/9781138671577
+  language: Python
+  type: book
+  keywords: psychology, cognitive science, getting started
+  
 
 
 
