@@ -132,12 +132,12 @@
   url: https://github.com/COGS108/Tutorials
   language: Python
   type: course
-  keywords: notebooks, github
+  keywords: Jupyter, github
 
 - name: A Whirlwind Tour of Python
   url: https://github.com/jakevdp/WhirlwindTourOfPython
   language: Python
   type: book
-  keywords: github
+  keywords: Jupyter, github
 
 
