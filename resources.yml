@@ -96,9 +96,28 @@
   type: book
   keywords: psychology, cognitive science, getting started
   
+- name: Rules of Machine Learning: Best Practices for ML Engineering
+  url: https://developers.google.com/machine-learning/rules-of-ml/
+  language: general
+  type: guide
+  keywords: machine learning, getting started
 
+- name: The Ultimate List of Python YouTube Channels
+  url: https://realpython.com/python-youtube-channels/
+  language: Python
+  type: list
+  keywords: youtube
+  
+- name: Hands-On Data Science (UCSD COGS108)
+  url: https://github.com/COGS108/Tutorials
+  language: Python
+  type: course
+  keywords: notebooks, github
 
-
-
+- name: A Whirlwind Tour of Python
+  url: https://github.com/jakevdp/WhirlwindTourOfPython
+  language: Python
+  type: book
+  keywords: github
 
 
