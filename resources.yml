@@ -116,7 +116,7 @@
   description: The full text of the Python Data Science Handbook by Jake VanderPlas
   keywords: Python
 
-- name: Rules of Machine Learning: Best Practices for ML Engineering
+- name: Rules of Machine Learning - Best Practices for ML Engineering
   url: https://developers.google.com/machine-learning/rules-of-ml/
   language: general
   type: guide
