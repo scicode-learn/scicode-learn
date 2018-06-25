@@ -34,7 +34,6 @@
   url: https://gist.github.com/smutnyleszek/9803727
   language: Jekyll
   type: cheatsheet
-  thumbnail: none
 
 - name: Jekyll Cheat Sheet
   url: https://learn.cloudcannon.com/jekyll-cheat-sheet/
@@ -117,6 +116,28 @@
   description: The full text of the Python Data Science Handbook by Jake VanderPlas
   keywords: Python
 
+- name: Rules of Machine Learning: Best Practices for ML Engineering
+  url: https://developers.google.com/machine-learning/rules-of-ml/
+  language: general
+  type: guide
+  keywords: machine learning, getting started
 
+- name: The Ultimate List of Python YouTube Channels
+  url: https://realpython.com/python-youtube-channels/
+  language: Python
+  type: list
+  keywords: youtube
+  
+- name: Hands-On Data Science (UCSD COGS108)
+  url: https://github.com/COGS108/Tutorials
+  language: Python
+  type: course
+  keywords: notebooks, github
+
+- name: A Whirlwind Tour of Python
+  url: https://github.com/jakevdp/WhirlwindTourOfPython
+  language: Python
+  type: book
+  keywords: github
 
 
