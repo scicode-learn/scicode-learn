@@ -140,4 +140,17 @@
   type: book
   keywords: Jupyter, github
 
+- name: R – The Future of Psychology Statistics is Open Source
+  url: http://nobaproject.com/blog/2018-06-21-r-the-future-of-psychology-statistics-is-open-source
+  language: R
+  type: book
+  keywords: noba, psychology
+  
+- name: Command Line Tricks For Data Scientists
+  url: https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da
+  language: unix
+  type: guide
+  keywords: command line
+  
+
 
