@@ -152,5 +152,11 @@
   type: guide
   keywords: command line
   
+- name: Hacker Tools
+  url: https://hacker-tools.github.io/
+  language: unix
+  type: course
+  keywords: Unix, shell, command line
+
 
 
