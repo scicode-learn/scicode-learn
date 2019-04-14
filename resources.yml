@@ -152,5 +152,11 @@
   type: guide
   keywords: command line
   
+- name: Elegant SciPy
+  url: https://github.com/elegant-scipy/elegant-scipy
+  language: Python
+  type: book
+  description: general introduction to scientific Python stack, with examples
+  keywords: SciPy, Numpy, Jupyter, general
 
 
